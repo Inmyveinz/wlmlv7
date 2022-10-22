@@ -10,8 +10,7 @@ class script(object):
  
     HELP_TXT = """𝙷𝙴𝚈 {}
 ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ʜᴇʟᴘ ᴛᴏᴏʟ's 😇"""
-    ABOUT_TXT = """<b>❖ ᴍʏ ɴᴀᴍᴇ : ᴀᴊᴀx ᴘʀᴏ ᴍᴀx</b>
-<b>❖ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/wlmlchittytherobot>ᴀᴅᴍɪɴ</a></b>
+    ABOUT_TXT = """<b>❖ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/wlmlchittytherobot>ᴀᴅᴍɪɴ</a></b>
 <b>❖ ʟɪʙʀᴀʀʏ : ᴘʀᴏɢʀᴀᴍ</b>
 <b>❖ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ </b>
 <b>❖ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏᴅʙ</b>
