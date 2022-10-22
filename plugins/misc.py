@@ -60,10 +60,10 @@ async def showid(client, message):
 @Client.on_message(filters.command("about"))
 async def aboutme(client, message):
         buttons= [[
-            InlineKeyboardButton('♥️ ᴅᴇᴘʟᴏʏ ᴛᴜᴛᴏʀɪᴀʟ ♥️', url='https://youtu.be/kB9TkCs8cX0')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url='https://t.me/wlmlchittytherobot')
             ],[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 ᴄʟsᴇs 🔐', callback_data='close_data')
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟsᴇs', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -148,22 +148,16 @@ async def who_is(client, message):
 
 @Client.on_message(filters.command("help"))
 async def help(client, message):
-        buttons = [[
-            InlineKeyboardButton('ᴍᴀ ғɪʟᴛᴇʀ', callback_data='manuelfilter'),
-            InlineKeyboardButton('ᴀᴜ ғɪʟᴛᴇʀ', callback_data='autofilter'),
-            InlineKeyboardButton('ᴄᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct')
+        buttons = [[ 
+            InlineKeyboardButton('ɢ ᴛʀᴀɴs', callback_data='gtrans'),
+            InlineKeyboardButton('ᴛᴛs', callback_data='ttss'),
+            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='sats')
             ],[
-            InlineKeyboardButton('ᴛᴇʟᴇɢʀᴀᴘʜ', callback_data='tele'),
-            InlineKeyboardButton('sᴛɪᴄᴋᴇʀ ɪᴅ', callback_data='sticker'),
-            InlineKeyboardButton('ʏᴛ ᴛʜᴜᴍʙ', callback_data='ytthumb')
-            ],[
-            InlineKeyboardButton('ғɪʟᴇ sᴛᴏʀᴇ', callback_data='newdata'),
-            InlineKeyboardButton('ᴀᴜᴅɪᴏ ʙᴏᴏᴋ', callback_data='abook'),
-            InlineKeyboardButton('ʀᴇᴘᴏʀᴛ', callback_data='report')
-            ],[
-            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='start'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='eth')
+            InlineKeyboardButton("ʏᴏᴜᴛᴜʙᴇ-ᴅʟ", url='https://t.me/WlMlYTdLBot')
+            ],[         
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]            
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
