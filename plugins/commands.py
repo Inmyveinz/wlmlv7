@@ -62,12 +62,7 @@ async def start(client, message):
                 InlineKeyboardButton(
                     "📧 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 📧", url=invite_link.invite_link
                 )
-            ],
-            [
-                InlineKeyboardButton(
-                    "💌 sᴜʙsᴄʀɪʙᴇ 💌", url="https://youtube.com/OpusTechz"
-                )
-            ]
+            ]            
         ]
         await client.send_message(
             chat_id=message.from_user.id,
