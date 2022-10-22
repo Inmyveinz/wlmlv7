@@ -16,15 +16,12 @@ class script(object):
     HELP_TXT = """𝙷𝙴𝚈 {}
 ʜᴇʀᴇ ɪs ᴀʟʟ ᴍʏ ʜᴇʟᴘ ᴛᴏᴏʟ's 😇"""
     ABOUT_TXT = """<b>❖ ᴍʏ ɴᴀᴍᴇ : ᴀᴊᴀx ᴘʀᴏ ᴍᴀx</b>
-<b>❖ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/AboutAadhi>ᴀᴀᴅʜɪ</a></b>
+<b>❖ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/wlmlchittytherobot>ᴀᴅᴍɪɴ</a></b>
 <b>❖ ʟɪʙʀᴀʀʏ : ᴘʀᴏɢʀᴀᴍ</b>
 <b>❖ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ </b>
 <b>❖ ᴅᴀᴛᴀʙᴀsᴇ : ᴍᴏɴɢᴏᴅʙ</b>
 <b>❖ sᴇʀᴠᴇʀ : ʜᴇʀᴜᴋᴏ</b>
-<b>❖ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.1.37 </b>
-<b>❖ ᴜᴘᴅᴀᴛᴇᴢ : <a href=https://t.me/MWUpdatez>ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ</a></b>
-<b>❖ ʏᴛ ᴄʜᴀɴɴᴇʟ : <a href=https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA>ᴏᴘᴜs ᴛᴇᴄʜᴢ</a></b>"""
-
+<b>❖ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ3.1.37 </b>"""
     DONATION_TXT = """<b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧 & 𝐏𝐚𝐢𝐝 𝐏𝐫𝐨𝐦𝐨𝐭𝐢𝐨𝐧</b> 
 
 ›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
