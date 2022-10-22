@@ -194,9 +194,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/FinderUpdates')                        
         ]
     )
    
@@ -814,17 +812,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('sᴜᴘᴘᴏʀᴛ ᴘʟᴇᴀsᴇ')
     elif query.data == "start":
         buttons = [[   
-            InlineKeyboardButton('› ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ‹', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('› sᴇᴀʀᴄʜ ʜᴇʀᴇ ‹', switch_inline_query_current_chat='')
         ], [    
-            InlineKeyboardButton('◈ ɢʀᴏᴜᴘ ◈', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('◈ ᴄʜᴀɴɴᴇʟ ◈', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about'),
+            InlineKeyboardButton('ᴍᴏʀᴇ', callback_data='eth')
         ], [
-            InlineKeyboardButton('› ᴏᴡɴᴇʀ ‹', url='t.me/AboutAadhi')
-        ], [
-            InlineKeyboardButton('๏ ʜᴇʟᴘ ๏', callback_data='help'),
-            InlineKeyboardButton('๏ ᴀʙᴏᴜᴛ ๏', callback_data='about')
-        ], [
-            InlineKeyboardButton('› ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ ‹', callback_data='ajax')
+            InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴜsᴇ', url='https://t.me/HowToUseMe'),
+            InlineKeyboardButton('ɴᴏᴛ ᴜᴘᴅᴀᴛᴇs', url='https://t.me/FinderUpdates')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -890,20 +884,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "eth":
         buttons = [[ 
             InlineKeyboardButton('ɢ ᴛʀᴀɴs', callback_data='gtrans'),
-            InlineKeyboardButton('ᴜʀʟ sʜᴏʀᴛ', callback_data='urlshort'),
-            InlineKeyboardButton('ᴇxᴛʀᴀ', callback_data='extra')
-            ],[
-            InlineKeyboardButton('sᴏɴɢ', callback_data='songs'),
             InlineKeyboardButton('ᴛᴛs', callback_data='ttss'),
-            InlineKeyboardButton("ᴠɪᴅᴇᴏ", callback_data='video')            
+            InlineKeyboardButton("sᴛᴀᴛᴜs", callback_data='sats')
             ],[
-            InlineKeyboardButton("ɪᴍᴀɢᴇ", callback_data='image'),
-            InlineKeyboardButton('ᴘᴜʀɢᴇ', callback_data='purges'),
-            InlineKeyboardButton('ᴡʜᴏɪs', callback_data='whois')           
-            ],[
-            InlineKeyboardButton('‹‹ ʙᴀᴄᴋ', callback_data='help'),
-            InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='statsx'),
-            InlineKeyboardButton('ɴᴇxᴛ ››', callback_data='prop')
+            InlineKeyboardButton("ʏᴏᴜᴛᴜʙᴇ-ᴅʟ", url='https://t.me/WlMlYTdLBot')
+            ],[         
+            InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)  
         await query.answer("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʜᴇʟᴘ ᴍᴏᴅᴜʟᴇ ᴛᴡᴏ")     
@@ -939,10 +927,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('♥️ ᴅᴇᴘʟᴏʏ ᴛᴜᴛᴏʀɪᴀʟ ♥️', url='https://youtu.be/kB9TkCs8cX0')
+            InlineKeyboardButton('ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ', url='https://t.me/wlmlchittytherobot')
             ],[
-            InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start'),
-            InlineKeyboardButton('🔐 ᴄʟsᴇs 🔐', callback_data='close_data')
+            InlineKeyboardButton('ʜᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('ᴄʟsᴇs', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1479,9 +1467,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs', url='https://t.me/FinderUpdates')                        
         ]
     )
     
