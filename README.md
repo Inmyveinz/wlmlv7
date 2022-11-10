@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="wlml/wlml.jpg" alt="wlmlLogo">
+  <img src="Logo/wlml.png" alt="wlmlLogo">
 </p>
 
 
